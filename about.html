@@ -5,6 +5,195 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> document</title>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Global Market</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+header{
+    background:#ff6a00;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:90px 67px;
+}
+
+.logo{
+    font-size:38px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+.hero{
+    background:linear-gradient(to right,#ff6a00,#ff9800);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:48px;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:18px;
+}
+
+.search{
+}
+
+.search input{
+    width:50%;
+    padding:15px;
+    border:none;
+    border-radius:30px 0 0 30px;
+    font-size:16px;
+}
+
+.search button{
+    padding:15px 25px;
+    border:none;
+    background:#222;
+    color:white;
+    border-radius:0 30px 30px 0;
+    cursor:pointer;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    padding:40px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.card h3{
+    padding:15px;
+}
+
+.card p{
+    padding:0 15px 15px;
+    color:#555;
+}
+
+.card button{
+    width:100%;
+    padding:12px;
+    background:#ff6a00;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<div class="logo">Global Market</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">Suppllies</a>
+<a href="#">contacts</a>
+<a href="#">Login</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>come... visit and shop </h1>
+<p>Connect with trusted suppliers across the globe.</p>
+
+<div class="search">
+<input type="text" placeholder="Search what you want ...">
+<button>Search</button>
+</div>
+</section>
+
+<section class="products">
+
+<div class="card">
+<img src="https://picsum.photos/300/200?1">
+<h3>Wireless Earbuds</h3>
+<p>$19.99</p>
+<button>View Product</button>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/200?2">
+<h3>Gaming Laptop</h3>
+<p>$899</p>
+<button>View Product</button>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/200?3">
+<h3>Smart Watch</h3>
+<p>$45</p>
+<button>View Product</button>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/200?4">
+<h3>Bluetooth Speaker</h3>
+<p>$29</p>
+<button>View Product</button>
+</div>
+
+</section>
+
+<footer>
+©2026 merkattoo E-commerce    all rights Reserved
+</footer>
+
+</html>
+
+
+    
 </head>
 <body>
     
